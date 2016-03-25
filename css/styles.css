@@ -1,0 +1,15 @@
+#board {
+  width: 1080px;
+  height: 1080px;
+}
+
+.boardSquare {
+  background-color: green;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.boardSquare:hover{
+  background-color: red;
+}
