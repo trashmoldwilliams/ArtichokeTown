@@ -1,15 +1,56 @@
+#stats {
+  background-color: red;
+  width: 1550px;
+  height: 200px;
+}
+
+#toolbar {
+  background-color: violet;
+  width: 150px;
+  height: 1000px;
+  float: left;
+}
+
 #board {
-  width: 1080px;
-  height: 1080px;
+  width: 1400px;
+  height: 1000px;
+  float: left;
 }
 
 .boardSquare {
-  background-color: green;
   float: left;
   width: 20px;
   height: 20px;
 }
 
-.boardSquare:hover{
+.boardSquare:hover {
   background-color: red;
+}
+
+.empty {
+  background-color: green;
+}
+
+.townHall {
+  background-color: violet;
+}
+
+.road {
+  background-color: grey;
+}
+
+.residential {
+  background-color: red;
+}
+
+.commercial {
+  background-color: blue;
+}
+
+.industrial {
+  background-color: yellow;
+}
+
+.powerPlant {
+  background-color: orange;
 }
